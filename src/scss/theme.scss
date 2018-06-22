@@ -1,0 +1,15 @@
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap-vue/dist/bootstrap-vue.css";
+$fa-font-path: "../../node_modules/font-awesome/fonts";
+@import "../../node_modules/font-awesome/scss/font-awesome";
+
+@import './layout/header';
+@import './layout/footer';
+@import './default/content';
+@import './default/icons';
+
+
+
+@import './components/breadcrumb';
+@import './components/result-list';

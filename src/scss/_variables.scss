@@ -1,0 +1,40 @@
+/*
+Bootstrap overrides
+ */
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-size-base:              .9rem;
+$link-color: #10669d;
+//$link-decoration
+$link-hover-color: #10669d;
+//$link-hover-decoration
+
+$breadcrumb-padding-y: 0;
+$breadcrumb-padding-x: 0;
+$breadcrumb-bg: none;
+$breadcrumb-border-radius: 0;
+$breadcrumb-divider: "|";
+
+$blue: #0273a2;
+$lite-grey-bg: #f1f2f2;
+$red-icon: #ee2523;
+$dark-text: #404040;
+$layout-panel: #5e7a8c;
+$layout-panel-tools: #e4e3e3;
+$layout-panel-links: #bfbebe;
+
+$white: #ffffff;
+$green: #1cc600;
+
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:   1.25rem !default;
+$font-size-sm:   .875rem !default;
+$font-size-xs:   .75rem !default;
+
+$block-margin-base: 2rem;
+$block-margin: $block-margin-base 0;
+
+$p-icons: "../../i/public/img/products.png";
+$r-icon-fonts-path : "../fonts/";
+
+
+

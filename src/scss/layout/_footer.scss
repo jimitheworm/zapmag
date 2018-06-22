@@ -1,0 +1,34 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 340px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 200px;
+}
+.list-two-columns {
+  columns: 2
+}
+
+footer {
+  padding: 2rem;
+  font-size: 0.8rem;
+  color: $layout-panel-links
+}
+
+footer h3 {
+  color: $white !important;
+}
+footer a {
+  color: $layout-panel-links
+}
+footer a:hover {
+  color: $white
+}

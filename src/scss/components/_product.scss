@@ -1,0 +1,144 @@
+.product-thumb-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+
+  margin: 0 -1rem;
+
+}
+.product-thumb-list-item {
+  margin: 0 1rem;
+  width: 11%;
+  text-align: center;
+  line-height: 1;
+
+
+  a, span {
+    text-decoration: none;
+    color: #000;
+  }
+  span {
+    font-size: .9rem
+  }
+
+
+  span {
+    font-size: 0.8rem;
+
+  }
+}
+
+.product-item-card {
+  text-align: center;
+  text-decoration: none;
+
+  overflow: hidden;
+  &:hover {
+    box-shadow:  0 0 10px rgba(0,0,0,0.3);
+    position: absolute;
+    width: calc(100% - 30px);
+    .item-card-specs {
+      display: block
+    }
+  }
+
+  .item-card-desc {
+    padding: 0 1rem 1rem 1rem;
+    text-decoration: none;
+    img {
+      display: block;
+      margin: 0 auto;
+
+
+    }
+    div {
+      height: 2.5rem;
+      overflow: hidden
+    }
+
+  }
+
+  .item-card-hints {
+    display: flex;
+    line-height: 2rem;
+
+    padding: 0 1rem 1rem 1rem;
+
+    div {
+      width: 50%
+    }
+    div:first-of-type {
+      color: $green;
+      position: relative;
+      text-align:left
+
+    }
+    div:last-of-type {
+      text-align: right;
+      font-size: 2rem
+    }
+    .fa-rub {
+      font-size: .9rem
+    }
+  }
+  .item-card-specs {
+    display: none;
+    text-align: left;
+    background: #ebebeb;
+    padding: 1rem;
+    font-size: 0.8rem;
+
+    .row {
+      margin-top: .5rem;
+
+      a {
+        color: #000000;
+        border-bottom: 1px dashed;
+        line-height: 1.5rem;
+        font-size: .7rem
+      }
+      div:last-of-type {
+        text-align: right
+      }
+      button {
+        color: $white;
+        background: $red-icon
+      }
+    }
+  }
+}
+.pi {
+  background-image: url($p-icons)
+}
+.pi {
+  display: inline-block;
+  width: 76px;
+  height: 76px;
+  background-repeat:  no-repeat;
+}
+.pi-oil {
+  background-position: -76px 0;
+}
+.pi-wipers {
+  background-position: -152px 0;
+}
+.pi-to{
+  background-position: -228px 0;
+}
+.pi-bulb{
+  background-position: -304px 0;
+}
+.pi-filter{
+  background-position: -380px 0;
+}
+.pi-shock-absorber{
+  background-position: -456px 0;
+}
+.pi-brakes{
+  background-position: -532px 0;
+}
+.pi-bomb{
+  background-position: -608px 0;
+}

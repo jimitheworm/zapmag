@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Поиск</title>
+    <link rel="shortcut icon" href="i/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/dist/build.css" />
+
+</head>
+<body>
+<div id="rt-app">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div id="logo"><a href="/"><img src="/i/public/logo.png" alt="" class="img-fluid"></a></div>
+                </div>
+                <div class="col-2">
+                    <rt-geo-location></rt-geo-location>
+                </div>
+
+                <div class="col-5">
+                    <nav class="nav top"><ul><li><a href="/news" class="">Новости</a></li><li><a href="/shops" class="">Наши магазины</a></li><li><a href="/delivery" class="">Доставка</a></li><li><a href="/contacts" class="">Контакты</a></li><li><a href="/help" class="">Помощь</a></li></ul></nav>            </div>
+                <div class="col-3 text-right">
+                    <rt-phone></rt-phone>
+                </div>
+
+            </div>
+        </div>
+        <div class="block-wrapper" id="search-form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <a href=""><i class="fa fa-list"></i> Каталоги&nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+                    </div>
+                    <div class="col-7">
+                        <form class="form-inline" action="/search"><input type="text" placeholder="Введите VIN номер или артикул запчасти"
+                                                                          class="form-control search-field" name="query"/>
+                            <button type="submit" class="btn"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="col-3">
+                        <ul class="user-tools">
+                            <li class="list-inline-item"><rt-user></rt-user></li>
+                            <li class="list-inline-item"><a href=""><i class="fa fa-cart-plus"></i>Корзина</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </header><main class="mt-4">
+    <div class="container">
+
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                <li class="breadcrumb-item"><a href="/search">Результаты поиска SP1097</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Тормозные колодки задние terracan</li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-8">
+                <div class="result-list-chosen">
+                    <div class="rlc-legend">
+                        <div>Тормозные колодки задние terracan</div>
+
+                    </div>
+                    <div class="rlc-body">
+                        <div class="row">
+                            <div class="col-6 rlc-img"><img src="/i/public/img/brakes.png" alt=""></div>
+                            <div class="col-6 rlc-desc">
+                                <table>
+                                    <tr>
+                                        <td>Производитель:</td>
+                                        <td>Alco</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Артикул:</td>
+                                        <td>SP1097</td>
+                                    </tr>
+
+                                </table>
+                                <p>
+                                    Обратите внимание, что данная деталь может быть использована на различных автомобилях данной марки и модели, но применимость к конкретному автомобилю проверяется в каталоге производителя.
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="result-list-cross">
+                    <rt-product-options></rt-product-options>
+                </div>
+
+            </div>
+            <div class="col-4">
+                <div class="basket-aside block-margin">
+                    <div class="row">
+                        <div class="col-7"><div class="ba-price">1534 <i class="fa fa-rub"></i></div></div>
+                        <div class="col-5 ba-add-button"><button class="btn btn-sm"><i class="fa fa-cart-plus"></i> В корзину</button></div>
+                    </div>
+
+                    <div class="ba-stores row">
+                        <div class="col-7 ba-store">
+                            <a href=""><i class="fa fa-map-marker"></i> Коновалова</a>
+                            <span>сегодня в 13:30</span>
+                        </div>
+                        <div class="col-5 text-right">31 шт.</div>
+                    </div>
+                </div>
+                <div class=" teaser-phone">
+                    <div>Сложно выбрать нужную запчасть?</div>
+                    <div>
+                        <button class="btn"><i class="fa fa-phone"></i> Поможем подобрать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+    <rt-modal></rt-modal>
+    <footer class="block-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-2"><img src="/i/public/logo-bottom.png" alt=""><br>
+                    <small>&copy; 2018 &laquo;Запсчастье.рф&raquo;<br>Все права защищены.</small>
+                </div>
+                <div class="col-4">
+                    <div class="footer-widget"><h3 class="h6">Компания</h3>
+                        <ul class="list-unstyled list-two-columns">
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Наши магазины</a></li>
+                            <li><a href="#">Документы</a></li>
+                            <li><a href="#">Конфиденциальность</a></li>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Оплата</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">О магазине</a></li>
+                            <li><a href="#">Правила возврата</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="footer-widget"><h3 class="h6">Каталог товаров</h3>
+                        <ul class="list-unstyled list-two-columns">
+                            <li><a href="#">Автохимия</a></li>
+                            <li><a href="#">Автокосметика</a></li>
+                            <li><a href="#">Аккумуляторы</a></li>
+                            <li><a href="#">Автосвет</a></li>
+                            <li><a href="#">Автоаксессуары</a></li>
+                            <li><a href="#">Автоэлектроника</a></li>
+                            <li><a href="#">Инструмент</a></li>
+                            <li><a href="#">Оригинальные каталоги</a></li>
+                            <li><a href="#">Каталог ТО</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2"><div class="footer-widget"><h3 class="h6">Личный кабинет</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Войти</a></li>
+                        <li><a href="#">Регистрация</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+    </footer>
+    <!--end:footer--><script type="text/javascript" src="/dist/build.js"></script>
+</div>
+</body>
+</html>

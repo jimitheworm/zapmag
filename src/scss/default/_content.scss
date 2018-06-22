@@ -1,0 +1,10 @@
+@import '../components/product';
+@import '../components/teaser';
+@import '../components/basket';
+
+.block-margin {
+  margin: $block-margin
+}
+.paperlike-story {
+  column-count: 2;
+}

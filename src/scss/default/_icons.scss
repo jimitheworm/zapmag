@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'PartkomRetail';
+  src:  url('#{$r-icon-fonts-path}PartkomRetail.eot?abyuo9');
+  src:  url('#{$r-icon-fonts-path}PartkomRetail.eot?abyuo9#iefix') format('embedded-opentype'),
+  url('#{$r-icon-fonts-path}PartkomRetail.ttf?abyuo9') format('truetype'),
+  url('#{$r-icon-fonts-path}PartkomRetail.woff?abyuo9') format('woff'),
+  url('#{$r-icon-fonts-path}PartkomRetail.svg?abyuo9#PartkomRetail') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ri {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'PartkomRetail' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block;
+  font-size: inherit;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ri-brakes:before {
+  content: "\e901";
+}
+.ri-oil:before {
+  content: "\e900";
+}
+
+.pr-angle-down:before {
+  content: "\e902";
+}
+.pr-angle-left:before {
+  content: "\e903";
+}
+.pr-angle-right:before {
+  content: "\e904";
+}
+.pr-angle-up:before {
+  content: "\e905";
+}
+.pr-bomb:before {
+  content: "\e906";
+}
+.pr-cart:before {
+  content: "\e907";
+}
+.pr-cart-arrow-down:before {
+  content: "\e908";
+}
+.pr-cart-plus:before {
+  content: "\e909";
+}
+.pr-cross:before {
+  content: "\e90a";
+}
+.pr-energy-absorber:before {
+  content: "\e90b";
+}
+.pr-eye:before {
+  content: "\e90c";
+}
+.pr-eye-blocked:before {
+  content: "\e90d";
+}
+.pr-filter:before {
+  content: "\e90e";
+}
+.pr-lightbulb:before {
+  content: "\e90f";
+}
+.pr-location:before {
+  content: "\e910";
+}
+.pr-menu:before {
+  content: "\e911";
+}
+.pr-mgnifier-large:before {
+  content: "\e912";
+}
+.pr-phone:before {
+  content: "\e913";
+}
+.pr-to:before {
+  content: "\e914";
+}
+.pr-user:before {
+  content: "\e915";
+}
+.pr-washer-fluid:before {
+  content: "\e916";
+}
+.pr-brakes:before {
+  content: "\e901";
+}
+.pr-oil:before {
+  content: "\e900";
+}
+.pr-search:before {
+  content: "\e917";
+}

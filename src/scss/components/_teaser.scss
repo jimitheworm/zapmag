@@ -1,0 +1,16 @@
+.teaser-phone {
+  background: #ebebeb;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+
+  div:first-of-type {
+    margin-bottom: 1rem
+  }
+  button {
+    background: $red-icon;
+    color: $white;
+    font-size: 1.2rem;
+
+  }
+}

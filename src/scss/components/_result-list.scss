@@ -1,0 +1,154 @@
+//.result-list-item {
+//  padding: 10px 0;
+//  &:hover, &:focus {
+//    text-decoration: none
+//  }
+//}
+//
+//.result-list-item {
+//  border-bottom: 1px solid #eeeeee;
+//  &:first-of-type {
+//    border-top: 1px solid #eeeeee;
+//  }
+//  &:hover {
+//    color: $red-icon
+//  }
+//  .fa-rub {
+//    font-size: .8rem
+//  }
+//}
+.result-list-item {
+  padding: 1rem 0;
+  display: flex;
+  color: #222;
+  border-bottom: 1px dotted #cccccc;
+  &:hover {
+    text-decoration: none;
+    color: #222;
+    //background: #e0e0e0
+  }
+  &:last-of-type {
+    border-bottom: none
+  }
+}
+.rl-item-ico {
+  font-size: 3.3rem;
+  background: #fff;
+}
+.rl-item-plot {
+  padding-left: 1.2rem;
+  padding-right: 2rem;
+  margin: 2px;
+  flex-grow: 2;
+
+  div:nth-child(1) {
+    font-size: 1.6rem;
+    margin-bottom: .3rem;
+    display: block;
+
+    &:hover {
+      color: $red-icon;
+      cursor:pointer;
+    }
+    &:after {
+      display: table
+    }
+  }
+  div:nth-child(2) {
+    //font-size: 2rem;
+    display: inline-block;
+    margin-right: 1.6rem;
+    text-transform: uppercase;
+    color: #444444;
+  }
+  div:nth-child(3) {
+  display: inline-block;
+    color: #444444;
+
+  }
+  div {
+    line-height: 1;
+
+    small {
+      text-transform: none;
+      font-size: 0.7rem;
+
+    }
+  }
+}
+.rl-item-specs {
+  text-align: center;
+  div:nth-child(1) {
+    font-size: 1.8rem;
+    .fa {
+      font-size: 1rem;
+      color: #444444
+    }
+  }
+
+  div:nth-child(2) {
+    color: $green;
+    font-size: 0.7rem;
+    a {
+      color: #000;
+      border-bottom: 1px dotted;
+      margin-left: 1rem
+    }
+    a:hover {
+      text-decoration: none
+    }
+  }
+}
+
+.result-list-summary {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    line-height: 1;
+    text-align: center;
+
+     a {
+       color: #3e4d57;
+       display: inline-block;
+       font-size: 2.7rem;
+       margin-bottom: 5px;
+       padding: 10px;
+
+     }
+  }
+  li.active {
+    a {
+      background: #d5dee4;
+      border-radius: 3px;
+    }
+  }
+}
+.result-list-chosen {
+  .rlc-legend {
+    div:nth-child(1) {
+      font-size: 1.8rem;
+    }
+    div:nth-child(2), div:nth-child(3) {
+
+    }
+  }
+  .rlc-body {
+
+  }
+  .rlc-img {
+    margin: 1rem 0;
+  }
+  .rlc-desc {
+
+    margin: 1rem 0;
+    table {
+      width: 100%;
+      margin-bottom: 2rem;
+      td {
+        width: 50%
+      }
+    }
+  }
+}
